@@ -1,10 +1,20 @@
-# Movie Catalog - A Simple MVVM based WPF application with SQL Database
+# Movie Catalog - A Simple MVVM WPF Application with SQL Database
+Welcome to Movie Catalog! Movie Catalog is a simple desktop application built with the Model-View-ViewModel (MVVM) architectural pattern using WPF (Windows Presentation Foundation) and SQL Database. It provides users with a convenient way to manage and organize their movie collection, including details such as titles, genres, release years, ratings, and more.
 
-Movie Catalog is a simple demonstration of database based application that
-lets you store a list of movies. It is developed based upon MVVM pattern. The
-application stores and updates data in database with the help of stored
-procedures.
+## Features
+1. **User-friendly Interface:** Offers an intuitive and easy-to-use interface for browsing, adding, updating, and deleting movie entries.
 
+2. **Data Persistence:** Utilizes a SQL database backend to store movie information, ensuring data persistence and enabling users to access their catalog across sessions.
+
+3. **MVVM Architecture:** Follows the MVVM architectural pattern to separate concerns between the data model, view, and view model, facilitating maintainability and testability.
+
+4. **Search and Filtering:** Allows users to search for specific movies by title, genre, release year, or other criteria, and apply filters to narrow down the list of displayed movies.
+
+5. **Sorting and Ordering:** Supports sorting and ordering options to arrange movies alphabetically, by release year, rating, or other attributes, providing flexibility in organizing the catalog.
+
+6. **Data Validation:** Implements data validation rules to ensure the integrity and consistency of movie entries, preventing the addition of invalid or incomplete information.
+
+7. **Responsive Design:** Adapts to different screen sizes and resolutions, providing a consistent user experience across various devices and display settings.
 
 ## **Prerequisites**
 
@@ -77,3 +87,17 @@ Set the connection string
 - *Movie.cs:* Contains code for movie class (Model)
 
 - *MovieRepostory.cs:* Contains database connectivity code and logic
+
+## Usage
+1. **Browse Movies:** Use the navigation controls to browse through the list of movies in the catalog. Scroll through the list or use search and filtering options to find specific movies.
+
+2. **Add New Movies:** Click on the "Add" button to add new movies to the catalog. Enter the relevant details such as title, genre, release year, rating, etc., and save the entry to the database.
+
+3 .**Update Movie Details:** Select a movie from the list and click on the "Edit" button to update its details. Make the necessary changes and save the updated information.
+
+4. **Delete Movies:** Remove unwanted movies from the catalog by selecting them and clicking on the "Delete" button. Confirm the deletion to remove the movie from the database.
+
+5. **Search and Filter:** Use the search bar to search for specific movies by title, genre, or other attributes. Apply filters to narrow down the list based on criteria such as release year or rating.
+
+## Customization
+Customize Movie Catalog to fit your specific requirements by modifying aspects such as the user interface design, database schema, data validation rules, sorting and filtering options, and additional features such as movie recommendations or integration with external APIs. 
